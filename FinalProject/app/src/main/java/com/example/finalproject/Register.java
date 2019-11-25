@@ -3,9 +3,11 @@ package com.example.finalproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.UserManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
@@ -23,5 +25,8 @@ public class Register extends AppCompatActivity {
 
     @ViewById
     EditText passwordRegister;
+
+    @Bean
+    UserManager realm;
 
 }
