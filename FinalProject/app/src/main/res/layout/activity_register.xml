@@ -47,4 +47,20 @@
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/registerButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="453dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
