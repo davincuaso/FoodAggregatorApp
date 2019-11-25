@@ -78,7 +78,7 @@ import org.androidannotations.annotations.ViewById;
 
         @Click(R.id.registerButton)
         public void register(){
-
+        Register_.intent(this).start();
     }
     }
 
