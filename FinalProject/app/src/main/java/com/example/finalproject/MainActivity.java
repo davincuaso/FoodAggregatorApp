@@ -14,6 +14,7 @@ import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.listener.multi.BaseMultiplePermissionsListener;
 
 import org.androidannotations.annotations.AfterViews;
+import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
@@ -25,16 +26,19 @@ import org.androidannotations.annotations.ViewById;
         TextView loginText;
 
         @ViewById
-        EditText username;
+        EditText usernameText;
 
         @ViewById
-        EditText password;
+        EditText passwordText;
 
         @ViewById
         Button loginButton;
 
         @ViewById
         Button registerButton;
+
+        @Bean
+        UserManager realm;
 
 
     @AfterViews
@@ -73,7 +77,32 @@ import org.androidannotations.annotations.ViewById;
 
         @Click(R.id.loginButton)
         public void login(){
+            String username = usernameText.getText().toString();
+            String password = passwordText.getText().toString();
+            boolean authenticate = false;
 
+
+            User userLoggingIn = realm.checkUsers(username);
+
+            if(userLoggingIn != null && userLoggingIn.getPassword().equals(password))
+            {
+
+                authenticate = true;
+
+                finish();
+                Home_.intent(this).start();
+            }
+
+            else if(username.matches("") || password.matches(""))
+            {
+                Toast toast = Toast.makeText(this, "Please fill up all fields", Toast.LENGTH_SHORT);
+                toast.show();
+            }
+
+            else{
+                Toast toast = Toast.makeText(this, "Invalid Credentials", Toast.LENGTH_SHORT);
+                toast.show();
+            }
         }
 
         @Click(R.id.registerButton)
