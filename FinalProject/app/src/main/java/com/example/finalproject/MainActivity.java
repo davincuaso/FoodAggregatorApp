@@ -41,35 +41,35 @@ import org.androidannotations.annotations.ViewById;
         UserManager realm;
 
 
-//    @AfterViews
-//    public void checkPermissions()
-//    {
-//        Dexter.withActivity(this)
-//                .withPermissions(
-//                        Manifest.permission.READ_EXTERNAL_STORAGE,
-//                        Manifest.permission.WRITE_EXTERNAL_STORAGE,
-//
-//                        Manifest.permission.CAMERA
-//
-//                )
-//
-//                .withListener(new BaseMultiplePermissionsListener()
-//                {
-//                    public void onPermissionsChecked(MultiplePermissionsReport report)
-//                    {
-//                        if (report.areAllPermissionsGranted())
-//                        {
-//                            init();
-//                        }
-//                        else
-//                        {
-//                            Toast.makeText(getApplicationContext(), "You must provide permissions for app to run", Toast.LENGTH_LONG).show();
-//                            finish();
-//                        }
-//                    }
-//                })
-//                .check();
-//    }
+    @AfterViews
+    public void checkPermissions()
+    {
+        Dexter.withActivity(this)
+                .withPermissions(
+                        Manifest.permission.READ_EXTERNAL_STORAGE,
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                        Manifest.permission.ACCESS_FINE_LOCATION,
+                        Manifest.permission.CAMERA
+
+                )
+
+                .withListener(new BaseMultiplePermissionsListener()
+                {
+                    public void onPermissionsChecked(MultiplePermissionsReport report)
+                    {
+                        if (report.areAllPermissionsGranted())
+                        {
+                            init();
+                        }
+                        else
+                        {
+                            Toast.makeText(getApplicationContext(), "You must provide permissions for app to run", Toast.LENGTH_LONG).show();
+                            finish();
+                        }
+                    }
+                })
+                .check();
+    }
 
         public void init(){
             loginText.setText("LOGIN");

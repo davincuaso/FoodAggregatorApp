@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.finalproject">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:name=".MyApp_"
         android:allowBackup="true"
@@ -10,7 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserRow_"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBt8AVE2p_KuQi3yQPvmpXNsT9_Y9icwzw" />
+
+        <activity android:name=".MapsActivity_"></activity>
+        <activity android:name=".UserRow_" />
         <activity android:name=".UserList_" />
         <activity android:name=".Home_" />
         <activity android:name=".Register_" />
