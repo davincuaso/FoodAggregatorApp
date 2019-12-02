@@ -40,8 +40,8 @@ public class UserAdapter extends RealmRecyclerViewAdapter<User, UserAdapter.MyVi
 
         // fill in the ViewHolder
         // non-strings need to be converted to String via String.valueOf()
-        holder.username.setText(user.getUsername());
         holder.name.setText(user.getName());
+        holder.username.setText(user.getUsername());
         holder.password.setText(user.getPassword());
 
 
