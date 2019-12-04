@@ -38,6 +38,8 @@ public class StallList extends AppCompatActivity {
 
         RealmResults<Stall> displaystalls = realm.findAll();
 
+        StallAdapter sa = new StallAdapter(this,displaystalls);
+        stallRecyclerView.setAdapter(sa);
     }
 
     public void delete(Stall object)
