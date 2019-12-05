@@ -3,7 +3,7 @@ package com.example.finalproject;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
-public class User extends RealmObject {
+public class Stall extends RealmObject {
     @PrimaryKey
     private String stallname;
 

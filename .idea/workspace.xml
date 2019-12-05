@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae974b4f-a76a-4767-93bc-145ba5df9d64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_stall_row.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallList.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_user_row.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="true" selection-end-line="59" selection-end-column="52" />
+            <state relative-caret-position="289">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -43,26 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_stall_row.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" column="5" lean-forward="true" selection-end-line="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="10">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -70,17 +59,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="255">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserManager.java">
+        <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/LocationReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" lean-forward="true" selection-end-line="65" />
+            <state relative-caret-position="17">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_user_list.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="13" lean-forward="true" selection-end-line="30" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -88,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="595">
               <caret line="51" column="40" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="40" />
             </state>
           </provider>
@@ -128,10 +126,11 @@
         <option value="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallList" />
         <option value="$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_stall_list.xml" />
         <option value="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallAdapter.java" />
-        <option value="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java" />
-        <option value="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java" />
         <option value="$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_stall_row.xml" />
         <option value="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallList.java" />
+        <option value="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java" />
+        <option value="$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java" />
+        <option value="$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_user_row.xml" />
       </list>
     </option>
   </component>
@@ -321,7 +320,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.33963692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.34493193" />
       <window_info id="Structure" order="1" sideWeight="0.5040917" side_tool="true" weight="0.33963692" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Image Layers" order="3" />
@@ -340,7 +339,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Preview" order="4" visible="true" weight="0.30257186" />
+      <window_info anchor="right" id="Preview" order="4" visible="true" weight="0.13086233" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,13 +386,6 @@
     <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/LocationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserRow.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -437,24 +429,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_user_list.xml">
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="13" lean-forward="true" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_stall_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="51" column="40" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="40" />
+        <state relative-caret-position="204">
+          <caret line="23" column="5" selection-end-line="80" />
         </state>
       </provider>
     </entry>
@@ -465,17 +444,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserAdapter.java">
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/UserList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="5" lean-forward="true" selection-end-line="80" />
+        <state relative-caret-position="595">
+          <caret line="51" column="40" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallAdapter.java">
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_stall_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state relative-caret-position="272">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/LocationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_user_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" lean-forward="true" selection-end-line="30" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -486,38 +486,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_user_row.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-end-line="59" selection-end-column="52" />
+        <state relative-caret-position="289">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/res/layout/activity_stall_row.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/Stall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalProject/app/src/main/java/com/example/finalproject/StallManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -24,7 +24,7 @@ public class StallManager {
         Stall newStall = new Stall();
 
         // Set parameters of object
-        newUser.setStallname(stallname);
+        newStall.setStallname(stallname);
 
         // Save to realm
         realm.beginTransaction();
