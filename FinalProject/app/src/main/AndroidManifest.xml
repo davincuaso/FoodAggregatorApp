@@ -3,6 +3,9 @@
     package="com.example.finalproject">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".MyApp_"
@@ -12,12 +15,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".LeaveReview"></activity>
+        <activity android:name=".ReviewRow" />
+        <activity android:name=".ReviewList" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBt8AVE2p_KuQi3yQPvmpXNsT9_Y9icwzw" />
 
-        <activity android:name=".MapsActivity_"></activity>
+        <activity android:name=".ReviewImage_" />
+        <activity android:name=".MapsActivity_" />
         <activity android:name=".UserRow_" />
         <activity android:name=".UserList_" />
         <activity android:name=".Home_" />
@@ -41,8 +48,4 @@
         </provider>
     </application>
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
