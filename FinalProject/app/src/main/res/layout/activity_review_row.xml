@@ -6,4 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".ReviewRow">
 
+    <TextView
+        android:id="@+id/reviewRow"
+        android:layout_width="343dp"
+        android:layout_height="268dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="76dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewImageRow" />
+
+    <ImageView
+        android:id="@+id/reviewImageRow"
+        android:layout_width="224dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
