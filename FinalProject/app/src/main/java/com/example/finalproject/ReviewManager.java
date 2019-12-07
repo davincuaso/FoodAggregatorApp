@@ -5,13 +5,11 @@ import android.content.Context;
 import org.androidannotations.annotations.EBean;
 
 import io.realm.Realm;
-import io.realm.RealmConfiguration;
 import io.realm.RealmResults;
 
 @EBean
 public class ReviewManager {
-//    RealmConfiguration realmConfiguration1 = new RealmConfiguration.Builder(this).name("reviewRealm").build();
-    Realm reviewRealm = Realm.getDefaultInstance();
+    Realm realm = Realm.getDefaultInstance();
 
     Context context;
 
@@ -29,15 +27,15 @@ public class ReviewManager {
         newReview.setImage(image);
 
         // Save to realm
-        reviewRealm.beginTransaction();
-        reviewRealm.copyToRealmOrUpdate(newReview);
-        reviewRealm.commitTransaction();
+        realm.beginTransaction();
+        realm.copyToRealmOrUpdate(newReview);
+        realm.commitTransaction();
 
     }
 
     public void delete(Review review)
     {
-        reviewRealm.beginTransaction();
+        realm.beginTransaction();
 
         try{
             review.deleteFromRealm();
@@ -46,17 +44,17 @@ public class ReviewManager {
             e.printStackTrace();
         }
 
-        reviewRealm.commitTransaction();
+        realm.commitTransaction();
     }
 
     public RealmResults<Review> findAll(){
-        RealmResults<Review> reviews = reviewRealm.where(Review.class).findAll();
+        RealmResults<Review> reviews = realm.where(Review.class).findAll();
         return reviews;
     }
 
     public Review checkReviews(String reviews)
     {
-        Review review = reviewRealm.where(Review.class).equalTo("reviews", reviews)
+        Review review = realm.where(Review.class).equalTo("reviews", reviews)
                 .findFirst();
         return review;
     }

@@ -9,10 +9,10 @@
     <TextView
         android:id="@+id/reviewRow"
         android:layout_width="343dp"
-        android:layout_height="268dp"
+        android:layout_height="126dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="40dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reviewImageRow" />
@@ -36,6 +36,8 @@
         android:text="DELETE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reviewRow" />
+        app:layout_constraintTop_toBottomOf="@+id/reviewRow"
+        app:layout_constraintVertical_bias="0.065" />
 </androidx.constraintlayout.widget.ConstraintLayout>
