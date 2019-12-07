@@ -21,9 +21,19 @@ public class Home extends AppCompatActivity {
     @ViewById
     Button mapButton;
 
+    @ViewById
+    Button reviewButton;
+
     @Click(R.id.mapButton)
     public void map()
     {
         MapsActivity_.intent(this).start();
     }
+
+    @Click(R.id.reviewButton)
+    public void review(){
+        LeaveReview_.intent(this).start();
+    }
+
+
 }

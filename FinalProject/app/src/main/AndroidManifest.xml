@@ -15,9 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LeaveReview"></activity>
-        <activity android:name=".ReviewRow" />
-        <activity android:name=".ReviewList" />
+        <activity android:name=".LeaveReview_"></activity>
+        <activity android:name=".ReviewRow_" />
+        <activity android:name=".ReviewList_" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
