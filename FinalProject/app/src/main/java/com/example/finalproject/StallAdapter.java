@@ -2,7 +2,6 @@ package com.example.finalproject;
 
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -53,7 +52,7 @@ public class StallAdapter extends RealmRecyclerViewAdapter<Stall, StallAdapter.M
             super(itemView);
 
             stallname = itemView.findViewById(R.id.stallnameRow);
-            delete = itemView.findViewById(R.id.delete);
+            delete = itemView.findViewById(R.id.deleteStall);
 
             delete.setOnClickListener(deleteListener);
         }

@@ -61,7 +61,7 @@ public class UserAdapter extends RealmRecyclerViewAdapter<User, UserAdapter.MyVi
             name = itemView.findViewById(R.id.nameRow);
             username = itemView.findViewById(R.id.usernameRow);
             password = itemView.findViewById(R.id.passwordRow);
-            delete = itemView.findViewById(R.id.delete);
+            delete = itemView.findViewById(R.id.deleteStall);
 
             delete.setOnClickListener(deleteListener);
         }

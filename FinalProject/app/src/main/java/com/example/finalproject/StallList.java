@@ -22,9 +22,12 @@ public class StallList extends AppCompatActivity {
     RecyclerView stallRecyclerView;
 
     @ViewById
-    Button backStall;
+    Button backList;
 
-    @Click(R.id.backStall)
+    @Bean
+    StallManager realm;
+
+    @Click(R.id.backList)
     public void next()
     {
         MainActivity_.intent(this).start();

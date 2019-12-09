@@ -10,15 +10,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.finalproject.R;
-import com.example.finalproject.Review;
-import com.example.finalproject.ReviewList;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;
-import java.util.List;
 
 import io.realm.RealmRecyclerViewAdapter;
 import io.realm.RealmResults;
@@ -80,7 +76,7 @@ public class ReviewAdapter extends RealmRecyclerViewAdapter<Review, ReviewAdapte
 
             reviews = itemView.findViewById(R.id.reviewRow);
             photo = itemView.findViewById(R.id.reviewImageRow);
-            delete = itemView.findViewById(R.id.delete);
+            delete = itemView.findViewById(R.id.deleteStall);
 
             delete.setOnClickListener(deleteListener);
         }

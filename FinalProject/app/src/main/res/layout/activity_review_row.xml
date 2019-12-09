@@ -30,7 +30,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/delete"
+        android:id="@+id/deleteStall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DELETE"
