@@ -23,6 +23,8 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBt8AVE2p_KuQi3yQPvmpXNsT9_Y9icwzw" />
 
+        <activity android:name=".StallList_"></activity>
+        <activity android:name=".StallRow_"></activity>
         <activity android:name=".ReviewImage_" />
         <activity android:name=".MapsActivity_" />
         <activity android:name=".UserRow_" />

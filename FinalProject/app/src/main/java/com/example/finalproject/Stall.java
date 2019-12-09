@@ -17,7 +17,9 @@ public class Stall extends RealmObject {
 
     @Override
     public String toString() {
-        return "Stalls{" stallname'}';
+        return "Stalls{" +
+                "stallname = '" + stallname + '\'' +
+        '}';
     }
 
 }
