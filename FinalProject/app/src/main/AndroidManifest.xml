@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LeaveReview_"></activity>
+        <activity android:name=".InputStall_"></activity>
+        <activity android:name=".LeaveReview_" />
         <activity android:name=".ReviewRow_" />
         <activity android:name=".ReviewList_" />
 
@@ -23,8 +24,8 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBt8AVE2p_KuQi3yQPvmpXNsT9_Y9icwzw" />
 
-        <activity android:name=".StallList_"></activity>
-        <activity android:name=".StallRow_"></activity>
+        <activity android:name=".StallList_" />
+        <activity android:name=".StallRow_" />
         <activity android:name=".ReviewImage_" />
         <activity android:name=".MapsActivity_" />
         <activity android:name=".UserRow_" />

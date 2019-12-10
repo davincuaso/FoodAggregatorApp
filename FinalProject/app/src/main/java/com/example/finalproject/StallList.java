@@ -30,7 +30,7 @@ public class StallList extends AppCompatActivity {
     @Click(R.id.backList)
     public void next()
     {
-        MainActivity_.intent(this).start();
+        Home_.intent(this).start();
     }
 
     @AfterViews

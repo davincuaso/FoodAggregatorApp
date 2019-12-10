@@ -2,12 +2,15 @@ package com.example.finalproject;
 
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
+
+import java.util.List;
 
 import io.realm.RealmRecyclerViewAdapter;
 import io.realm.RealmResults;
@@ -39,19 +42,20 @@ public class StallAdapter extends RealmRecyclerViewAdapter<Stall, StallAdapter.M
 
         // fill in the ViewHolder
         // non-strings need to be converted to String via String.valueOf()
-        holder.stallname.setText(stall.getStallname());
+        holder.stallName.setText(stall.getStallName());
 
         holder.delete.setTag(stall);
     }
     public class MyViewHolder extends RecyclerView.ViewHolder
     {
-        TextView stallname;
+        TextView stallName;
+        Button delete;
 
         public MyViewHolder(View itemView)
         {
             super(itemView);
 
-            stallname = itemView.findViewById(R.id.stallnameRow);
+            stallName = itemView.findViewById(R.id.stallNameRow);
             delete = itemView.findViewById(R.id.deleteStall);
 
             delete.setOnClickListener(deleteListener);
@@ -62,10 +66,14 @@ public class StallAdapter extends RealmRecyclerViewAdapter<Stall, StallAdapter.M
         public void onClick(View v)
         {
 //            Tag is attaching arbitrary object to an existing object
-            Stall stall = (stall) v.getTag();
+            Stall stall = (Stall) v.getTag();
 //            System.out.println(u);
             context.delete(stall);
         }
     };
 }
+
+
+
+
 

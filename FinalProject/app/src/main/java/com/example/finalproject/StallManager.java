@@ -19,12 +19,12 @@ public class StallManager {
         this.context = context;
     }
 
-    public void save(String stallname){
+    public void save(String stallName){
         // Instantiate Plain-Old-Java-Object
         Stall newStall = new Stall();
 
         // Set parameters of object
-        newStall.setStallname(stallname);
+        newStall.setStallName(stallName);
 
         // Save to realm
         realm.beginTransaction();
@@ -52,9 +52,9 @@ public class StallManager {
         return stalls;
     }
 
-    public Stall checkStalls(String stallname)
+    public Stall checkStalls(String stallName)
     {
-        Stall stall = realm.where(Stall.class).equalTo("stallname", stallname)
+        Stall stall = realm.where(Stall.class).equalTo("stallName", stallName)
                 .findFirst();
         return stall;
     }

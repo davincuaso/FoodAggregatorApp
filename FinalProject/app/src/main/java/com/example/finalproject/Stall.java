@@ -5,20 +5,20 @@ import io.realm.annotations.PrimaryKey;
 
 public class Stall extends RealmObject {
     @PrimaryKey
-    private String stallname;
+    private String stallName;
 
-    public String getStallname() {
-        return stallname;
+    public String getStallName() {
+        return stallName;
     }
 
-    public void setStallname(String stallname) {
-        this.stallname = stallname;
+    public void setStallName(String stallName) {
+        this.stallName = stallName;
     }
 
     @Override
     public String toString() {
-        return "Stalls{" +
-                "stallname = '" + stallname + '\'' +
+        return "Stall{" +
+                "stallName = '" + stallName + '\'' +
         '}';
     }
 

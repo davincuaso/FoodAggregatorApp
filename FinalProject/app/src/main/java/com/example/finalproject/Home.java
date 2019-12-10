@@ -35,5 +35,10 @@ public class Home extends AppCompatActivity {
         LeaveReview_.intent(this).start();
     }
 
+    @Click(R.id.stallButton)
+    public void inputStall(){
+        InputStall_.intent(this).start();
+    }
+
 
 }
