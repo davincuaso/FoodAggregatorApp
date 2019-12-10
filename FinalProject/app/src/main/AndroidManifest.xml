@@ -22,7 +22,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBt8AVE2p_KuQi3yQPvmpXNsT9_Y9icwzw" />
+            android:value="" />
 
         <activity android:name=".StallList_" />
         <activity android:name=".StallRow_" />
