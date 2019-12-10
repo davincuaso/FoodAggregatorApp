@@ -53,9 +53,9 @@ public class LeaveReview extends AppCompatActivity {
             toast.show();
         } else {
             realm.save(reviews, reviews+".jpeg");
+            ReviewList_.intent(this).start();
         }
 
-        ReviewList_.intent(this).start();
 
     }
 
