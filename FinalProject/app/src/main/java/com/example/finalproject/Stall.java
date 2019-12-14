@@ -7,6 +7,7 @@ public class Stall extends RealmObject {
     @PrimaryKey
     private String stallName;
 
+
     public String getStallName() {
         return stallName;
     }
@@ -14,6 +15,7 @@ public class Stall extends RealmObject {
     public void setStallName(String stallName) {
         this.stallName = stallName;
     }
+
 
     @Override
     public String toString() {

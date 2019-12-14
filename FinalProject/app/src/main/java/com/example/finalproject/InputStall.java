@@ -18,11 +18,32 @@ public class InputStall extends AppCompatActivity {
     @ViewById
     EditText inputStall;
 
+
     @ViewById
     Button submitStall;
 
+    @ViewById
+    Button addMenu;
+
+
+
     @Bean
     StallManager realm;
+
+    @Click(R.id.addMenu)
+    public void add(){
+        String stallName = inputStall.getText().toString();
+
+
+        if (stallName.matches("")) {
+            Toast toast = Toast.makeText(this, "Please fill up all fields", Toast.LENGTH_SHORT);
+            toast.show();
+        } else {
+            realm.save(stallName);
+        }
+
+        AddMenuItem_.intent(this).stallName(stallName).start();
+    }
 
     @Click(R.id.submitStall)
     public void submit() {

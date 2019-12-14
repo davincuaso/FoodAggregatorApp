@@ -35,21 +35,32 @@
         android:id="@+id/submitStall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="64dp"
         android:text="SUBMIT"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintHorizontal_bias="0.256"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputStall" />
+        app:layout_constraintTop_toBottomOf="@+id/addMenu" />
 
     <Button
         android:id="@+id/seeStalls"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="208dp"
-        android:layout_marginLeft="208dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="64dp"
         android:text="SEE STALLS"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addMenu" />
+
+    <Button
+        android:id="@+id/addMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="ADD MENU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputStall" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

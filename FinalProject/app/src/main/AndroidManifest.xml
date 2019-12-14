@@ -15,14 +15,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InputStall_"></activity>
+        <activity android:name=".MenuImage_"></activity>
+        <activity android:name=".MenuRow_" />
+        <activity android:name=".MenuList_" />
+        <activity android:name=".AddMenuItem_" />
+        <activity android:name=".InputStall_" />
         <activity android:name=".LeaveReview_" />
         <activity android:name=".ReviewRow_" />
         <activity android:name=".ReviewList_" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBt8AVE2p_KuQi3yQPvmpXNsT9_Y9icwzw" />
+            android:value="AIzaSyCLdiV-0T-4VYQioL4xhu9U-25p-XNj8Hk" />
 
         <activity android:name=".StallList_" />
         <activity android:name=".StallRow_" />
